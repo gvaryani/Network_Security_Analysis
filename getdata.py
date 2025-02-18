@@ -58,8 +58,8 @@ class NetworkDataExtract():
 
 if __name__ == '__main__':
     FILE_PATH = 'network_data/NetworkData.csv'
-    DATABASE = 'mlcluster'
-    COLLECTION = 'NetworkData'
+    DATABASE = 'mlclusterfeb2025'
+    COLLECTION = 'NetworkDataset'
 
     networkobj = NetworkDataExtract()
     records = networkobj.csv_to_json_converter(FILE_PATH)
